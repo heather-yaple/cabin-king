@@ -1,5 +1,5 @@
 .header {
-  background-color: var(--vibrant-green);
+  background-color: var(--vibrant-purple);
   padding: 1rem;
 }
 
@@ -30,7 +30,7 @@
 
 .create-spot-link {
   text-decoration: none;
-  color: var(--white);
+  color: var(--silver);
   font-weight: bold;
   margin-right: 1.5rem; 
   display: flex;
@@ -52,7 +52,7 @@
   border: none;
   cursor: pointer;
   font-size: 32px;
-  color: var(--white);
+  color: var(--silver);
 margin-top: 1rem
 }
 
@@ -60,7 +60,7 @@ margin-top: 1rem
   position: absolute;
   right: 0;
   top: 100%;
-  background-color: var(--white);
+  background-color: var(--silver);
   border: 1px solid #DDDDDD;
   border-radius: 12px;
   padding: 10px 0;
@@ -87,7 +87,7 @@ margin-top: 1rem
 
 .profile-dropdown a:hover,
 .profile-dropdown button:hover {
-  color: var(--vibrant-green);
+  color: var(--vibrant-purple);
 }
 
 @media (max-width: 768px) {

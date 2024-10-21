@@ -9,7 +9,7 @@
   border: none;
   cursor: pointer;
   font-size: 36px;
-  color: var(--white);
+  color: var(--silver);
   display: flex;
   align-items: center;
   gap: 0px;
@@ -21,7 +21,7 @@
   position: absolute;
   right: 0;
   top: 100%;
-  background-color: var(--white);
+  background-color: var(--silver);
   border: 1px solid #DDDDDD;
   border-radius: 12px;
   padding: 10px 0;
@@ -48,5 +48,5 @@
 
 .profile-dropdown a:hover,
 .profile-dropdown button:hover {
-  color: var(--vibrant-green);
+  color: var(--vibrant-purple);
 }

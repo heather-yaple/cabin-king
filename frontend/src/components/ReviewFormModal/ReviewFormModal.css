@@ -3,7 +3,7 @@
 .review-form-modal {
   padding: 20px;
   max-width: 500px;
-  background-color: var(--white);
+  background-color: var(--silver);
 }
 
 .review-form-modal h2 {
@@ -54,7 +54,7 @@
 }
 
 .review-form-modal .star-rating .on .star {
-  color: var(--vibrant-green);
+  color: var(--vibrant-purple);
 }
 
 .review-form-modal .star-rating .off .star {
@@ -64,7 +64,7 @@
 .review-form-modal button[type='submit'] {
   padding: 10px;
   background-color: var(--gray);
-  color: var(--white);
+  color: var(--silver);
   border: none;
   border-radius: 4px;
   cursor: not-allowed;
@@ -72,10 +72,10 @@
 }
 
 .review-form-modal button[type='submit'].active {
-  background-color: var(--vibrant-green);
+  background-color: var(--vibrant-purple);
   cursor: pointer;
 }
 
 .review-form-modal button[type='submit']:hover {
-  background-color: var(--dark-blue);
+  background-color: var(--gold);
 }

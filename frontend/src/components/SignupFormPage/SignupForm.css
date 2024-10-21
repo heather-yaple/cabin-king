@@ -4,7 +4,7 @@
   padding: 20px;
   max-width: 400px;
   margin: 0 auto;
-  background-color: var(--white);
+  background-color: var(--silver);
   border-radius: 10px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
@@ -30,7 +30,7 @@
 }
 
 .signup-modal input:focus {
-  border-color: var(--vibrant-green); 
+  border-color: var(--vibrant-purple); 
   outline: none;
 }
 
@@ -49,7 +49,7 @@
   padding: 10px;
   width: 100%;
   background-color: var(--gray);
-  color: var(--white);
+  color: var(--silver);
   border: none;
   border-radius: 4px;
   cursor: not-allowed;
@@ -59,12 +59,12 @@
 
 
 .signup-modal button.active {
-  background-color: var(--vibrant-green);
+  background-color: var(--vibrant-purple);
   cursor: pointer;
 }
 
 .signup-modal button.active:hover {
-  background-color: var(--dark-blue);
+  background-color: var(--gold);
 }
 
 .signup-modal p.error-message {

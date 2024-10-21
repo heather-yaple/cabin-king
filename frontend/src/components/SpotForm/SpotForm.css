@@ -3,7 +3,7 @@
   max-width: 900px; /* Increased width */
   margin: 20px auto;
   padding: 20px;
-  background-color: var(--white);
+  background-color: var(--silver);
   border-radius: 8px;
 }
 
@@ -68,8 +68,8 @@
 
 .spot-form-container button[type="submit"] {
   padding: 10px;
-  background-color: var(--vibrant-green);
-  color: var(--white);
+  background-color: var(--vibrant-purple);
+  color: var(--silver);
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -77,5 +77,5 @@
 }
 
 .spot-form-container button[type="submit"]:hover {
-  background-color: var(--dark-blue);
+  background-color: var(--gold);
 }

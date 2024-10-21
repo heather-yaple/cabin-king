@@ -70,7 +70,7 @@
     border: 1px solid var(--gray);
     border-radius: 8px;
     padding: 20px;
-    background-color: var(--light-green);
+    background-color: var(--light-purple);
   }
   
   .spot-details .spot-callout .price {
@@ -85,8 +85,8 @@
   }
   
   .spot-details .spot-callout .reserve-button {
-    background-color: var(--vibrant-green);
-    color: var(--white);
+    background-color: var(--vibrant-purple);
+    color: var(--silver);
     padding: 15px;
     text-align: center;
     border-radius: 8px;
@@ -95,7 +95,7 @@
   }
   
   .spot-details .spot-callout .reserve-button:hover {
-    background-color: var(--dark-blue);
+    background-color: var(--gold);
   }
   
   .spot-details .reviews-section {
@@ -108,8 +108,8 @@
   }
   
   .spot-details .reviews-section .post-review-button {
-    background-color: var(--vibrant-green);
-    color: var(--white);
+    background-color: var(--vibrant-purple);
+    color: var(--silver);
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
@@ -118,7 +118,7 @@
   }
   
   .spot-details .reviews-section .post-review-button:hover {
-    background-color: var(--dark-blue);
+    background-color: var(--gold);
   }
   
   .spot-details .reviews-list {

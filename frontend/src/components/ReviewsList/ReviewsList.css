@@ -30,7 +30,7 @@
 
 .reviews-list .delete-review-button {
   background-color: var(--crayola-red);
-  color: var(--white);
+  color: var(--silver);
   border: none;
   padding: 8px 12px;
   border-radius: 4px;

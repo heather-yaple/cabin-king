@@ -2,7 +2,7 @@
   padding: 20px;
   max-width: 400px;  
   margin: 0 auto;  
-  background-color: var(--white);
+  background-color: var(--silver);
   border-radius: 10px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
@@ -41,7 +41,7 @@
   padding: 10px;
   width: 100%;  /* Make the button take full width */
   background-color: var(--gray);
-  color: var(--white);
+  color: var(--silver);
   border: none;
   border-radius: 4px;
   cursor: not-allowed;
@@ -50,12 +50,12 @@
 }
 
 .login-modal button.active {
-  background-color: var(--vibrant-green);
+  background-color: var(--vibrant-purple);
   cursor: pointer;
 }
 
 .login-modal button.active:hover {
-  background-color: var(--dark-blue);
+  background-color: var(--gold);
 }
 
 .login-modal .demo-user {
@@ -66,12 +66,12 @@
 .login-modal .demo-user button {
   background: none;
   border: none;
-  color: var(--vibrant-green);
+  color: var(--vibrant-purple);
   cursor: pointer;
   font-size: 16px;
   transition: color 0.3s ease;
 }
 
 .login-modal .demo-user button:hover {
-  color: var(--dark-blue);
+  color: var(--gold);
 }

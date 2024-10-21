@@ -27,7 +27,7 @@
 
 .confirm-delete-button {
   background-color: var(--crayola-red);
-  color: var(--white);
+  color: var(--silver);
   padding: 10px 20px;
   border: none;
   cursor: pointer;

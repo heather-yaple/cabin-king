@@ -2,12 +2,12 @@
 
 /* Color Variables */
 :root {
-  --vibrant-green: #1AAB76; /* Main color */
-  --light-green: #F0F4EF; /* Light background */
+  --vibrant-purple: #1AAB76; /* Main color */
+  --light-purple: #F0F4EF; /* Light background */
   --crayola-red: #E84855; /* For reds */
   --indigo: #344966; /* Supporting text */
-  --dark-blue: #0D1821; /* Supporting text */
-  --white: #FFFFFF; /* Pure white */
+  --gold: #0D1821; /* Supporting text */
+  --silver: #FFFFFF; /* Pure silver */
   --light-gray: #F0F2F5; /* Light gray */
   --gray: #D1D5DB; /* Gray for borders and backgrounds */
   --black: #000000; /* Pure black */
@@ -18,7 +18,7 @@ body {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
   color: var(--indigo);
-  background-color: var(--light-green);
+  background-color: var(--light-purple);
   margin: 0;
   padding: 0;
 }
@@ -50,7 +50,7 @@ a:focus,
 button:focus,
 input:focus,
 textarea:focus {
-  outline: 2px solid var(--vibrant-green);
+  outline: 2px solid var(--vibrant-purple);
   outline-offset: 2px;
 }
 
@@ -63,8 +63,8 @@ textarea:focus {
 
 /* Button Styles */
 .button {
-  background-color: var(--vibrant-green);
-  color: var(--white);
+  background-color: var(--vibrant-purple);
+  color: var(--silver);
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -74,7 +74,7 @@ textarea:focus {
 }
 
 .button:hover {
-  background-color: var(--dark-blue);
+  background-color: var(--gold);
 }
 
 .button.red {

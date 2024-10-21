@@ -11,8 +11,8 @@
   
   .manage-spots .create-spot-button {
     padding: 10px 20px;
-    background-color: var(--vibrant-green);
-    color: var(--white);
+    background-color: var(--vibrant-purple);
+    color: var(--silver);
     border: none;
     cursor: pointer;
     margin-bottom: 30px;
@@ -21,7 +21,7 @@
   }
   
   .manage-spots .create-spot-button:hover {
-    background-color: var(--dark-blue);
+    background-color: var(--gold);
   }
   
   .manage-spots .spots-list {
@@ -31,7 +31,7 @@
   }
   
   .manage-spots .spot-card {
-    background-color: var(--white);
+    background-color: var(--silver);
     border: 1px solid var(--gray);
     border-radius: 8px;
     overflow: hidden;
@@ -66,15 +66,15 @@
   
   .manage-spots .spot-actions button {
     padding: 8px 12px;
-    background-color: var(--vibrant-green);
-    color: var(--white);
+    background-color: var(--vibrant-purple);
+    color: var(--silver);
     border: none;
     cursor: pointer;
     border-radius: 4px;
   }
   
   .manage-spots .spot-actions button:hover {
-    background-color: var(--dark-blue);
+    background-color: var(--gold);
   }
   
   .manage-spots .spot-actions .delete-button {
