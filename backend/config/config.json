@@ -1,0 +1,21 @@
+{
+  "development": {
+    "storage": "./backend/db/dev.db",
+    "dialect": "sqlite"
+  },
+  "test": {
+    "storage": "./backend/db/test.db",
+    "dialect": "sqlite"
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres",
+    "ssl": true,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
